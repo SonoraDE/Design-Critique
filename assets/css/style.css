@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Inter;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-top: 3vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+header div {
+  display: flex;
+  gap: 1vw;
+}
+
+.nav-point {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-point:hover {
+  color: #2b2c2e;
+  text-decoration: overline;
+  font-weight: 700;
+}
+
+.navbar h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.header-img {
+  background-image: url(../img/home_hero.png);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  font-size: 1.7rem;
+  color: black;
+  text-decoration: none;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px 50px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  padding: 10px 60px;
+}
+
+header h2 {
+  margin-top: 7vh;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 4vh;
+  font-weight: 300;
+}
+
+.content-one {
+  display: flex;
+  color: #2b2c2e;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.content-one p {
+  font-size: 2rem;
+  width: 35vw;
+}
+
+.content-one h2 {
+  font-size: 6.1rem;
+}
+
+.content-one div p {
+  font-size: 2.1rem;
+}
+
+.content-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2b2c2e;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  margin-bottom: 15vh;
+}
+
+.content-two-img {
+  background-image: url(../img/home_deliverables.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 110vw;
+}
+
+.content-two h2 {
+  font-size: 5.5rem;
+  margin-bottom: 50px;
+}
+
+.content-two h3 {
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+}
+
+.content-two p {
+  color: #848689;
+  font-size: 2.1rem;
+  margin-bottom: 30px;
+}
+
+.content-three {
+  display: flex;
+  background-color: #f1f1f4;
+  width: 70vw;
+  padding-top: 5vh;
+  padding-bottom: 7vh;
+  margin: auto;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 15vh;
+}
+
+.content-three div {
+  margin-top: 5vh;
+}
+
+.content-three h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.content-three p:nth-of-type(1) {
+  padding-left: 60px;
+}
+
+.content-three p {
+  font-size: 1.5rem;
+  color: #848689;
+  width: 20vw;
+  margin-bottom: 2vh;
+}
+
+.content-three .box-img {
+  background-image: url(../img/home_how_it_works.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25vw;
+  height: 45vh;
+}
+
+.critique {
+  text-align: center;
+}
+
+.critique div {
+  width: 50vw;
+  margin: auto;
+  margin-bottom: 15vh;
+}
+
+.critique h2 {
+  font-size: 5rem;
+  margin-bottom: 5vh;
+  font-weight: 800;
+}
+
+.critique p {
+  font-size: 1.6rem;
+  color: #9fa2a7;
+  margin-bottom: 2vh;
+}
+
+.percent-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -19vh;
+  border-bottom: solid 1px #9fa2a7;
+  margin-bottom: 10vh;
+  width: 70vw;
+}
+
+.percent-pic {
+  background-image: url(../img/28.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60vw;
+  height: 45vh;
+  margin: auto;
+}
+
+.percent-img {
+  background-image: url(../img/home_conversion.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 35vw;
+  height: 45vh;
+  margin-bottom: 10vh;
+}
+
+.percent-content p {
+  color: #9fa2a7;
+  font-size: 2rem;
+  margin-bottom: 2vh;
+  margin-top: 3vh;
+}
+
+footer {
+  text-align: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 20vw;
+}
+
+footer h2 {
+  font-size: 4.8rem;
+  margin-bottom: 3vh;
+}
+
+footer p {
+  color: #9fa2a7;
+  font-size: 1.6rem;
+}
+
+.footer-img {
+  background-image: url(../img/costume_guy.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 10vw;
+  height: 10vh;
+}
